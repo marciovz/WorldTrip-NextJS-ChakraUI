@@ -1,6 +1,10 @@
+import { Box } from "@chakra-ui/layout";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <h1>WORLDTRIP</h1>
+    <Box>
+      <Header />
+    </Box>
   )
 }
