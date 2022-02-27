@@ -11,7 +11,12 @@ const breakpoints = createBreakpoints({
 
 export const theme = extendTheme({
   breakpoints,
-  colors:{},
+  colors:{
+    gray: {
+      '100': '#F5F8FA',
+      '200': '#DADADA'
+    }
+  },
   fonts: {
     heading: 'Poppins',
     body: 'Poppins'
