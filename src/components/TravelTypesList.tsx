@@ -1,13 +1,12 @@
-import { VStack, Wrap, Divider } from '@chakra-ui/react';
+import { Flex, Wrap } from '@chakra-ui/react';
 import TravelTypesItems from './TravelTypesItems';
 
 export default function TravelTypesList() {
   return (
-    <VStack
+    <Flex
       width={['90%', '540px', '720px', '960px', '1140px']}
       margin={{base: '36px auto' , md:'80px auto' }}
       justifyContent='center'
-      gap={{base: '30px', md:'80px'}}
     >
       <Wrap
         width={['90%', '540px', '720px', '960px', '1140px']}
@@ -20,14 +19,6 @@ export default function TravelTypesList() {
         <TravelTypesItems iconName='museum.svg' name='clássico'/>
         <TravelTypesItems iconName='earth.svg' name='e mais ...'/>
       </Wrap>
-
-      <Divider
-        marginTop='280px'
-        width='90px'
-        borderBottom='2px solid'
-        borderColor={'green.900'}  
-      />
-
-    </VStack>
+    </Flex>
   )
 }

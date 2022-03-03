@@ -1,4 +1,4 @@
-import { Flex, Box, Image, Stack,  Text, useBreakpointValue } from '@chakra-ui/react';
+import { Box, Image, Stack,  Text, useBreakpointValue } from '@chakra-ui/react';
 import { useState, useEffect } from 'react';
 
 interface TavelTypesItemsProps {
