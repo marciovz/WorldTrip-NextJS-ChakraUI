@@ -1,0 +1,18 @@
+{
+  "continents": [
+    {
+      "id": "00001",
+      "title": "Europa",
+      "image": "europa.svg",
+      "description": "O continente mais antigo",
+      "link": "europa"
+    },
+    {
+      "id": "00002",
+      "title": "Africa",
+      "image": "africa.svg",
+      "description": "O continente mais selvagem",
+      "link": "africa"
+    }
+  ]
+}
