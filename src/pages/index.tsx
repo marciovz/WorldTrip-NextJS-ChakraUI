@@ -42,11 +42,8 @@ export default function Home({ continents }: ContinentSliderProps) {
 
 
 export const getServerSideProps: GetServerSideProps = async () => {
-
   const response = await api.get('/continents');
   const continents = response.data;
-
-  console.log(continents);
 
   return {
     props: {

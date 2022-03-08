@@ -1,18 +1,46 @@
 {
   "continents": [
     {
-      "id": "00001",
+      "id": "001",
       "title": "Europa",
-      "image": "europa.svg",
+      "image": "europe.png",
       "description": "O continente mais antigo",
-      "link": "europa"
+      "link": "europe"
     },
     {
-      "id": "00002",
+      "id": "002",
       "title": "Africa",
-      "image": "africa.svg",
+      "image": "africa.png",
       "description": "O continente mais selvagem",
       "link": "africa"
-    }
+    },
+    {
+      "id": "003",
+      "title": "Asia",
+      "image": "asia.png",
+      "description": "O continente mais mistico",
+      "link": "asia"
+    },
+    {
+      "id": "004",
+      "title": "América do Sul",
+      "image": "southAmerica.png",
+      "description": "O continente mais belo",
+      "link": "southAmerica"
+    },
+    {
+      "id": "005",
+      "title": "América do Norte",
+      "image": "northAmerica.png",
+      "description": "O continente mais desafiador",
+      "link": "northAmerica"
+    },
+    {
+      "id": "006",
+      "title": "Oceania",
+      "image": "oceania.png",
+      "description": "O continente mais encantador",
+      "link": "oceania"
+    }    
   ]
 }
