@@ -9,7 +9,7 @@ export default function Header() {
       align='center'
     >
       <Image
-        src='images/Logo.svg' 
+        src='/images/Logo.svg' 
         alt='logo' 
         m='0 auto' 
         h={['20px', '46px']}

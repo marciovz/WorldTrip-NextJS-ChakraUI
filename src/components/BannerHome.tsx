@@ -9,14 +9,14 @@ export default function BannerHome() {
  
   return (
     <Box
-      backgroundImage='images/BannerHome.svg'
+      backgroundImage='/images/BannerHome.svg'
       backgroundRepeat='no-repeat'
       backgroundSize='cover'
-      height={[163, 163, 211, 281, 335]}
+      height={['163px', '163px', '211px', '281px', '335px']}
     >
       <HStack
         margin='0 auto'
-        maxWidth={['90%', '540px', '720px', '960', '1140']}
+        maxWidth={['90%', '540px', '720px', '960px', '1140px']}
         spacing='auto'
         height='100%'
       >
