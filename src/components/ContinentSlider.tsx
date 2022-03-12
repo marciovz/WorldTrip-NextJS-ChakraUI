@@ -3,6 +3,8 @@ import { Flex, Box, Heading, Text } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, A11y } from 'swiper';
 
+import GradientFilter from "./GradientFilter";
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -64,29 +66,37 @@ export default function ContinentSlider({ continents }: ContinentSliderProps) {
                     backgroundImage={`continents/${continent.image}`}
                     backgroundSize='cover'
                     backgroundPosition='center'
+                    position='relative'
+
+                    justifyContent='center'
+                    alignItems='center'
                   >
+
+                    <GradientFilter
+                      opacity={35} 
+                      orientation='to-b' 
+                      startColor='gray.800' 
+                      endColor='gray.800' 
+                    />
+
                     <Flex
-                      width='100%'
-                      height='100%'
+                      zIndex='10'
                       direction='column'
-                      justifyContent='center'
                       alignItems='center'
-                      backgroundColor='black'
-                      opacity='45%'
                     >
                       <Heading
                         fontSize={['24px', '30px', '36px', '42px', '48px']}
                         fontWeight={"bold"}
                         color={"gray.100"}
-                      >
+                        >
                         {continent.title}
                       </Heading>
                       <Text
-                        marginTop='16px'
+                        marginTop={['12px', '12px','14px','16px','16px']}
                         fontSize={['14px', '16px', '18px', '22px', '24px']}
                         fontWeight={"bold"}
                         color='gray.200'
-                      >
+                        >
                         {continent.description}
                       </Text>
                     </Flex>
