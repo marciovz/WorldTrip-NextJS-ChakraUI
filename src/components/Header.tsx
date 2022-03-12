@@ -17,12 +17,13 @@ export default function Header() {
       alignItems='center'
     >
       { !isHomePage && (
-        <Link href='/' >
+        <Link href='/'>
           <Icon 
             as={FiChevronLeft}
             width={['16px', '18px', '22px', '28px', '32px']}
             height={['16px', '18px', '22px', '28px', '32px']}
             color={'green.900'}
+            cursor='pointer'
           />
         </Link> 
       )}
