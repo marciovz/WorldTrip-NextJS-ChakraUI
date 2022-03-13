@@ -35,6 +35,7 @@ export default function BannerHome() {
           </Text>
 
           <Text 
+            marginTop={['8px', '10px', '14px', '18px', '20px']}
             fontSize={['14px', '15px',  '16px', '18px',  '20px']}
             fontStyle='normal'
             fontWeight='500'
