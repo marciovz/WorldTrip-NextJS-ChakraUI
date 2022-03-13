@@ -4,7 +4,7 @@ import { GetServerSideProps } from "next";
 
 import Header from "../components/Header";
 import BannerHome from "../components/BannerHome";
-import TravelTypesList from "../components/TravelTypesList";
+import TravelTypesList from "../components/TravelTypes/TravelTypesList";
 import Divider from "../components/Divider";
 import ContinentSlider from "../components/ContinentSlider";
 import { api } from '../services/api';
@@ -30,9 +30,7 @@ interface ContinentSliderProps {
 
 export default function Home({ continents }: ContinentSliderProps) {
   return (
-    <Flex
-      direction='column'
-    >
+    <Flex direction='column' >
       <Head>
         <title>WorldTrip</title>
       </Head>

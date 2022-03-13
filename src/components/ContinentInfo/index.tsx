@@ -1,15 +1,6 @@
-import { 
-  Flex,
-  Text, 
-  Box as Description,
-  SimpleGrid as InfosCol,
-  Box as Contries,
-  Box as Linguages,
-  Box as Cities,
-  SimpleGrid
-} from '@chakra-ui/react';
+import { Flex, Text, SimpleGrid as InfosCol, SimpleGrid } from '@chakra-ui/react';
 
-import Info from './info';
+import InfoItem from './InfoItem';
 
 interface ContinentInfoProps {
   continent: {
@@ -44,9 +35,9 @@ export default function ContinentInfo({continent}: ContinentInfoProps) {
           alignItems='center'
           columns={3}
         >
-          <Info nameInfo='países' amount={continent.informations.contries}/>
-          <Info nameInfo='linguas' amount={continent.informations.languages}/>
-          <Info nameInfo='cidades +100' amount={continent.informations.cities}/>
+          <InfoItem nameInfo='países' amount={continent.informations.contries}/>
+          <InfoItem nameInfo='linguas' amount={continent.informations.languages}/>
+          <InfoItem nameInfo='cidades +100' amount={continent.informations.cities}/>
         </InfosCol>
 
       </SimpleGrid>

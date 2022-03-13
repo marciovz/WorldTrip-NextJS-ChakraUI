@@ -1,11 +1,11 @@
 import { Box, Text } from '@chakra-ui/react';
 
-interface InfoProps {
+interface InfoItemProps {
   nameInfo: string,
   amount: number
 }
 
-export default function Info({nameInfo, amount}: InfoProps) {
+export default function InfoItem({nameInfo, amount}: InfoItemProps) {
   return (
     <Box>
     <Text 
