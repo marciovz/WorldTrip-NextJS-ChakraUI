@@ -3,44 +3,80 @@
     {
       "id": "001",
       "title": "Europa",
+      "subtitle": "O continente mais antigo",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a penísula ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáspio, e o mar Negro a sudeste",
       "image": "europe.png",
-      "description": "O continente mais antigo",
-      "link": "europe"
+      "link": "europe",
+      "informations": {
+        "contries": 50,
+        "languages": 234,
+        "cities": 27
+      }
     },
     {
       "id": "002",
       "title": "Africa",
+      "subtitle": "O continente mais selvagem",
+      "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, e o segundo continente mais populoso da terra com cerca de um bilhão de pessoas. O norte da África é a região mais antiga do mundo. A África está separada da Europa pelo mar Mediterrâneo e liga-se à Ásia na sua extremidade nordeste pelo istmo de Suez. O continente é o único que se estende pelo hemisfério norte e hemisfério sul, atravessado pela linha do equador e o meridiano de Greenwich.",
       "image": "africa.png",
-      "description": "O continente mais selvagem",
-      "link": "africa"
+      "link": "africa",
+      "informations": {
+        "contries": 54,
+        "languages": 2110,
+        "cities": 8
+      }
     },
     {
       "id": "003",
       "title": "Asia",
+      "subtitle": "O continente mais mistico",
+      "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. Na Ásia são encontradas algumas das montanhas mais altas do mundo; os rios mais extensos; os maiores desertos, planícies e planaltos; as selvas e florestas mais densas.",
       "image": "asia.png",
-      "description": "O continente mais mistico",
-      "link": "asia"
+      "link": "asia",
+      "informations": {
+        "contries": 50,
+        "languages": 2322,
+        "cities": 0
+      }
     },
     {
       "id": "004",
-      "title": "América do Sul",
-      "image": "southAmerica.png",
-      "description": "O continente mais belo",
-      "link": "southAmerica"
+      "title": "América do Norte",
+      "subtitle": "O continente mais desafiador",
+      "description": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano. O subcontinente é limitado a norte pelo Oceano Glacial Ártico, a leste pelo Oceano Atlântico, a sul pela América do Sul, pelo Golfo do México e Mar das Caraíbas e a oeste pelo oceano Pacífico. ",
+      "image": "northAmerica.png",
+      "link": "northAmerica",
+      "informations": {
+        "contries": 23,
+        "languages": 582,
+        "cities": 0
+      }
     },
     {
       "id": "005",
-      "title": "América do Norte",
-      "image": "northAmerica.png",
-      "description": "O continente mais desafiador",
-      "link": "northAmerica"
+      "title": "América do Sul",
+      "subtitle": "O continente mais belo",
+      "description": " América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. Tem uma extensão de 7 500 km desde o mar do Caribe até ao cabo Horn, ponto extremo sul do continente. No continente, existem tipos bem diversos de ambiente. A oeste fica a extensa cadeia montanhosa dos Andes, que atinge até 6 700 m de altitude em alguns pontos. O norte é quase completamente tomado pela densa e úmida Floresta Amazônica. Na região central do continente predominam áreas alagadas que incluem o Pantanal brasileiro e Chaco boliviano. Mais para o sul há planícies e cerrados. Na costa leste, a floresta costeira original cedeu lugar à ocupação industrial e agrícola.",
+      "image": "southAmerica.png",
+      "link": "southAmerica",
+      "informations": {
+        "contries": 13,
+        "languages": 456,
+        "cities": 0
+      }
     },
     {
       "id": "006",
       "title": "Oceania",
+      "subtitle": "O continente mais encantador",
+      "description": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
       "image": "oceania.png",
-      "description": "O continente mais encantador",
-      "link": "oceania"
+      "link": "oceania",
+      "informations": {
+        "contries": 14,
+        "languages": 1250,
+        "cities": 0
+      }
     }    
   ]
 }

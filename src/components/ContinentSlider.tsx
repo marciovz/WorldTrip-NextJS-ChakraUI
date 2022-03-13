@@ -12,9 +12,9 @@ import 'swiper/css/pagination';
 interface ContinentData {
   id: string,
   title: string,
+  subtitle: string,
   image: string,
-  description: string,
-  link: string
+  link: string,
 }
 
 interface ContinentSliderProps {
@@ -97,7 +97,7 @@ export default function ContinentSlider({ continents }: ContinentSliderProps) {
                         fontWeight={"bold"}
                         color='gray.200'
                         >
-                        {continent.description}
+                        {continent.subtitle}
                       </Text>
                     </Flex>
 

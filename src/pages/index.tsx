@@ -13,9 +13,15 @@ import { api } from '../services/api';
 interface ContinentData {
   id: string,
   title: string,
-  image: string,
+  subtitle: string,
   description: string,
-  link: string
+  image: string,
+  link: string,
+  informations: {
+    contries: number,
+    languages: number,
+    cities: number
+  }
 }
 
 interface ContinentSliderProps {
