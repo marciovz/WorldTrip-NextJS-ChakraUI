@@ -6,6 +6,7 @@ import { api } from '../../services/api';
 import Header from "../../components/Header";
 import BannerContinent from '../../components/BannerContinent';
 import ContinentInfo from '../../components/ContinentInfo';
+import ContinentCities from '../../components/ContinentCities';
 
 interface ContinentProps {
   slug: string,
@@ -17,7 +18,7 @@ interface ContinentProps {
     image: string,
     link: string,
     informations: {
-      contries: number,
+      countries: number,
       languages: number,
       cities: number
     }
@@ -36,6 +37,7 @@ export default function Continent({ slug, continent }: ContinentProps) {
       <Header />
       <BannerContinent image={continent.image} title={continent.title} />
       <ContinentInfo continent={continent} />
+      <ContinentCities />
     </Flex>
   )
 }

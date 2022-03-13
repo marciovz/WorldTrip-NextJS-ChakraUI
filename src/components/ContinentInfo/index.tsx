@@ -7,7 +7,7 @@ interface ContinentInfoProps {
     id: string,
     description: string,
     informations: {
-      contries: number,
+      countries: number,
       languages: number,
       cities: number
     }
@@ -35,7 +35,7 @@ export default function ContinentInfo({continent}: ContinentInfoProps) {
           alignItems='center'
           columns={3}
         >
-          <InfoItem nameInfo='países' amount={continent.informations.contries}/>
+          <InfoItem nameInfo='países' amount={continent.informations.countries}/>
           <InfoItem nameInfo='linguas' amount={continent.informations.languages}/>
           <InfoItem nameInfo='cidades +100' amount={continent.informations.cities}/>
         </InfosCol>

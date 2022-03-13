@@ -8,7 +8,7 @@
       "image": "europe.png",
       "link": "europe",
       "informations": {
-        "contries": 50,
+        "countries": 50,
         "languages": 234,
         "cities": 27
       }
@@ -21,7 +21,7 @@
       "image": "africa.png",
       "link": "africa",
       "informations": {
-        "contries": 54,
+        "countries": 54,
         "languages": 2110,
         "cities": 8
       }
@@ -34,7 +34,7 @@
       "image": "asia.png",
       "link": "asia",
       "informations": {
-        "contries": 50,
+        "countries": 50,
         "languages": 2322,
         "cities": 0
       }
@@ -47,7 +47,7 @@
       "image": "northAmerica.png",
       "link": "northAmerica",
       "informations": {
-        "contries": 23,
+        "countries": 23,
         "languages": 582,
         "cities": 0
       }
@@ -60,7 +60,7 @@
       "image": "southAmerica.png",
       "link": "southAmerica",
       "informations": {
-        "contries": 13,
+        "countries": 13,
         "languages": 456,
         "cities": 0
       }
@@ -73,7 +73,7 @@
       "image": "oceania.png",
       "link": "oceania",
       "informations": {
-        "contries": 14,
+        "countries": 14,
         "languages": 1250,
         "cities": 0
       }

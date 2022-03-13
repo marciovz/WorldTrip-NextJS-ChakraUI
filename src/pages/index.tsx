@@ -18,7 +18,7 @@ interface ContinentData {
   image: string,
   link: string,
   informations: {
-    contries: number,
+    countries: number,
     languages: number,
     cities: number
   }
