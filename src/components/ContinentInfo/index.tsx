@@ -17,7 +17,7 @@ interface ContinentInfoProps {
 export default function ContinentInfo({continent}: ContinentInfoProps) {
   return (
     <Flex
-      margin={['24px 0', '38px 0', '52px 0', '66px 0', '80px 0']}
+      marginTop={['24px', '38px', '52px', '66px', '80px']}
       width={['90%', '540px', '720px', '960px', '1140px']}
       alignSelf='center'
       >

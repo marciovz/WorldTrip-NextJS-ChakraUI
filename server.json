@@ -78,5 +78,56 @@
         "cities": 0
       }
     }    
+  ],
+  "cities": [
+    {
+      "id": "0001",
+      "name": "Londres",
+      "image": "londres.jpg",
+      "country": "Reino Unido",
+      "countryFlag": "reinounido.png",
+      "continentId": "001"
+    },
+    {
+      "id": "0002",
+      "name": "Paris",
+      "image": "paris.jpg",
+      "country": "França",
+      "countryFlag": "franca.png",
+      "continentId": "001"
+    },
+    {
+      "id": "0003",
+      "name": "Roma",
+      "image": "roma.jpg",
+      "country": "Italia",
+      "countryFlag": "italia.png",
+      "continentId": "001"
+    },
+    {
+      "id": "0004",
+      "name": "Praga",
+      "image": "praga.jpg",
+      "country": "República Tcheca",
+      "countryFlag": "republicatcheca.png",
+      "continentId": "001"
+    },
+    {
+      "id": "0005",
+      "name": "Amsterdã",
+      "image": "amsterda.jpg",
+      "country": "Holanda",
+      "countryFlag": "holanda.png",
+      "continentId": "001"
+    },
+    {
+      "id": "0006",
+      "name": "Rio de Janeiro",
+      "image": "rio_de_janeiro-brasil.jpg",
+      "country": "Brasil",
+      "countryFlag": "reinounido.png",
+      "continentId": "005"
+    }
+
   ]
 }
