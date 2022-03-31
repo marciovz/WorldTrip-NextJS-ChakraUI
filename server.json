@@ -85,7 +85,7 @@
       "name": "Londres",
       "image": "londres.jpg",
       "country": "Reino Unido",
-      "countryFlag": "reinounido.png",
+      "countryFlag": "gb-united-kingdom.svg",
       "continentId": "001"
     },
     {
@@ -93,7 +93,7 @@
       "name": "Paris",
       "image": "paris.jpg",
       "country": "França",
-      "countryFlag": "franca.png",
+      "countryFlag": "fr-france.svg",
       "continentId": "001"
     },
     {
@@ -101,7 +101,7 @@
       "name": "Roma",
       "image": "roma.jpg",
       "country": "Italia",
-      "countryFlag": "italia.png",
+      "countryFlag": "it-italy.svg",
       "continentId": "001"
     },
     {
@@ -109,7 +109,7 @@
       "name": "Praga",
       "image": "praga.jpg",
       "country": "República Tcheca",
-      "countryFlag": "republicatcheca.png",
+      "countryFlag": "cz-czech-republic.svg",
       "continentId": "001"
     },
     {
@@ -117,16 +117,208 @@
       "name": "Amsterdã",
       "image": "amsterda.jpg",
       "country": "Holanda",
-      "countryFlag": "holanda.png",
+      "countryFlag": "nl-netherlands.svg",
       "continentId": "001"
     },
     {
       "id": "0006",
       "name": "Rio de Janeiro",
-      "image": "rio_de_janeiro-brasil.jpg",
+      "image": "rio_de_janeiro.jpg",
       "country": "Brasil",
-      "countryFlag": "reinounido.png",
+      "countryFlag": "br-brazil.svg",
       "continentId": "005"
+    },
+    {
+      "id": "0007",
+      "name": "Buenos Aires",
+      "image": "buenos_aires.jpg",
+      "country": "Argentina",
+      "countryFlag": "ar-argentina.svg",
+      "continentId": "005"
+    },
+    {
+      "id": "0008",
+      "name": "Machu Picchu",
+      "image": "machu_picchu.jpg",
+      "country": "Peru",
+      "countryFlag": "pe-peru.svg",
+      "continentId": "005"
+    },
+    {
+      "id": "0009",
+      "name": "Punta del Este",
+      "image": "punta_del_este.jpg",
+      "country": "Uruguai",
+      "countryFlag": "uy-uruguay.svg",
+      "continentId": "005"
+    },
+    {
+      "id": "0010",
+      "name": "San Pedro do Atacama",
+      "image": "san_pedro_de_atacama.jpg",
+      "country": "Chile",
+      "countryFlag": "cl-chile.svg",
+      "continentId": "005"
+    },
+    {
+      "id": "0011",
+      "name": "Cairo",
+      "image": "cairo-egypt.jpg",
+      "country": "Egito",
+      "countryFlag": "eg-egypt.svg",
+      "continentId": "002"
+    },
+    {
+      "id": "0012",
+      "name": "Casablanca",
+      "image": "casablanca-marrocos.jpg",
+      "country": "Marrocos",
+      "countryFlag": "ma-marrocos.svg",
+      "continentId": "002"
+    },
+    {
+      "id": "0013",
+      "name": "Durban",
+      "image": "durban-africa_do_sul.jpg",
+      "country": "Africa do Sul",
+      "countryFlag": "za-south_africa.svg",
+      "continentId": "002"
+    },
+    {
+      "id": "0014",
+      "name": "Luangwa",
+      "image": "luangwa-zambia.jpg",
+      "country": "Zambia",
+      "countryFlag": "zm-zambia.svg",
+      "continentId": "002"
+    },
+    {
+      "id": "0015",
+      "name": "Tóquio",
+      "image": "toquio-japao.jpg",
+      "country": "Japão",
+      "countryFlag": "jp-japao.svg",
+      "continentId": "003"
+    },
+    {
+      "id": "0016",
+      "name": "Dubai",
+      "image": "dubai-emirados_arabes.jpg",
+      "country": "Emirados Arabes",
+      "countryFlag": "ae-united_arabes_emirates.svg",
+      "continentId": "003"
+    },
+    {
+      "id": "0017",
+      "name": "Bali",
+      "image": "bali-indonesia.jpg",
+      "country": "Indonésia",
+      "countryFlag": "id-indonesia.svg",
+      "continentId": "003"
+    },
+    {
+      "id": "0018",
+      "name": "Pequim",
+      "image": "pequim-china.jpg",
+      "country": "China",
+      "countryFlag": "cn-china.svg",
+      "continentId": "003"
+    },
+    {
+      "id": "0019",
+      "name": "Istambul",
+      "image": "istambul-turquia.jpg",
+      "country": "Turquia",
+      "countryFlag": "tr-turkey.svg",
+      "continentId": "003"
+    },
+    {
+      "id": "0020",
+      "name": "Jerusalém",
+      "image": "jerusalem-israel.jpg",
+      "country": "Israel",
+      "countryFlag": "il-israel.svg",
+      "continentId": "003"
+    },
+    {
+      "id": "0021",
+      "name": "Miami",
+      "image": "miami-eua.jpg",
+      "country": "EUA",
+      "countryFlag": "us-eua.svg",
+      "continentId": "004"
+    },
+    {
+      "id": "0022",
+      "name": "New York",
+      "image": "new_yorker-eua.jpg",
+      "country": "EUA",
+      "countryFlag": "us-eua.svg",
+      "continentId": "004"
+    },
+    {
+      "id": "0023",
+      "name": "Cancún",
+      "image": "cancun-mexico.jpg",
+      "country": "México",
+      "countryFlag": "mx-mexico.svg",
+      "continentId": "004"
+    },
+    {
+      "id": "0024",
+      "name": "Quebec",
+      "image": "quebec-canada.jpg",
+      "country": "Canadá",
+      "countryFlag": "ca-canada.svg",
+      "continentId": "004"
+    },
+    {
+      "id": "0025",
+      "name": "Niagara Falls",
+      "image": "niagara-canada.jpg",
+      "country": "Canadá",
+      "countryFlag": "ca-canada.svg",
+      "continentId": "004"
+    },
+    {
+      "id": "0026",
+      "name": "Banff",
+      "image": "banff-canada.jpg",
+      "country": "Canadá",
+      "countryFlag": "ca-canada.svg",
+      "continentId": "004"
+    },
+    {
+      "id": "0027",
+      "name": "Chichén Itzá",
+      "image": "chichen_itza-mexico.jpg",
+      "country": "México",
+      "countryFlag": "mx-mexico.svg",
+      "continentId": "004"
+    },
+    {
+      "id": "0028",
+      "name": "Sidney",
+      "image": "sidney-australia.jpg",
+      "country": "Austrália",
+      "countryFlag": "au-australia.svg",
+      "continentId": "006"
+    },
+    {
+      "id": "0029",
+      "name": "Bora Bora",
+      "image": "bora_bora-polinesia_francesa.jpg",
+      "country": "Polinésia Francesa",
+      "countryFlag": "pf-polinesia_francesa.svg",
+      "continentId": "006"
+    },
+    {
+      "id": "0030",
+      "name": "Hobbiton",
+      "image": "hobbiton-nova_zelandia.jpg",
+      "country": "Nova Zelandia",
+      "countryFlag": "nz-nova_zelandia.svg",
+      "continentId": "006"
     }
 
   ]

@@ -57,15 +57,23 @@ export const getServerSideProps: GetServerSideProps = async ({req, params }) => 
   const { slug } = params;
   
   const responseContinent = await api.get(`/continents/?link=${slug}`);
-  const continent = responseContinent.data[0];
+  const continent: Continent = responseContinent.data[0];
 
-  const responseCities = await api.get(`/cities`);
+  const responseCities = await api.get(`/cities/?continentId=${continent.id}`);
   const cities = responseCities.data;
+
 
   return{
     props: {
       slug,
-      continent,
+      continent: {
+        ...continent, 
+        informations: {
+          countries: continent.informations.countries,
+          languages: continent.informations.languages,
+          cities: cities.length
+        } 
+      },
       cities
     }
   }

@@ -56,8 +56,8 @@ export default function cityItem({city}: CityItemProps) {
 
         <Image 
           src={`/countriesflag/${city.countryFlag}`}
-          width='30px'
-          height='30px'
+          boxSize='30px'
+          borderRadius='full'
           alignSelf='center' 
         />
       </Flex>
